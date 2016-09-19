@@ -1,0 +1,63 @@
+		.limit {width: 1206px; margin: 0 auto;}
+		.g-header {height: 89px; line-height: 89px; margin-top: 36px;}
+		.m-logo {float: left;}
+		.m-logo a {display: block; width: 236px; height: 22px; margin-top: 30px; overflow: hidden;}
+		.m-logo img {display: block; width: 100%; height: auto;}
+		.m-login {position: relative; float: left;}
+		.m-login span {display: block; float: left; height: 21px; font: 12px/21px "SimSun"; text-align: center; margin-top: 31px;}
+		.m-login .m-login-con {width: 54px; margin: 31px 11px 0 30px; background-color: #21a557; color: #fff;}
+		.m-login .m-login-con:hover {background-color: #2fb556; cursor: pointer;}
+		.m-login .m-login-acon {display: none; position: absolute; left: 30px; bottom: 0; width: 106px; border: 1px solid #efefef; background-color: #f8f8f8; line-height: 20px; box-sizing: border-box;}
+		/* js控制显示 */
+		.m-login .z-login-acon {display: block;}
+		/*   */
+		.m-login-acon {color: #333;}
+		.m-login-acon i {float: left; width: 18px; height: 19px; background: url(../images/sprite.png) -35px 6px no-repeat;}
+		.m-login-acon button {display: block; float: right; width: 38px; height: 19px; border: none; background-color: #f8f8f8; font: 12px/18px "SimSun"; color: #999;}
+		.m-login-acon:hover {background-color: #fff;}
+		.m-login-acon:hover button {background-color: #fff;}
+		.m-login-acon button:hover {text-decoration: underline; color: #21a557;}
+		.m-login .m-login-fans {width: 42px;}
+		.m-login span i {display: inline-block;}
+		.m-login-con i {width: 8px; height: 8px; margin-right: 5px; background: url(../images/sprite.png) 0 0 no-repeat;}
+		.m-login-fans i {width: 12px; height: 21px; margin-left: 5px;}
+		.m-nav {float: right;}
+		.m-nav li {float: left;}
+		.m-nav a {display: block; font-size: 16px; font-weight: 500; color: #000; height: 18px; line-height: 18px; margin: 36px 54px 0 0;}
+		.m-nav a:hover {color: #39a030;}
+		.m-nav .m-nav-a3 {margin-right: 30px;}
+		.m-nav .m-nav-a4 {margin-right: 16px;}
+		.m-nav-a4 i {display: block; width: 18px; height: 18px; margin-top: 35px; background: url(../images/sprite.png) -68px 0 no-repeat;}
+		.m-nav-a4:hover i {background: url(../images/sprite.png) -103px 0 no-repeat;}
+		.m-tip {position: absolute; top: 0; left: 0; height: 36px; line-height: 36px; width: 100%; background-color: #f3f3f3;}
+		.m-tip p {float: left; color: #333;}
+		.m-tip p>a {color: #21a557;}
+		.m-tip a {float: right; color: #333;}
+		.m-tip i {display: block; float: left; width: 10px; height: 10px; margin: 13px 2px 0 0; background: url(../images/sprite.png) -18px 0 no-repeat;}
+		/* js控制显示 */
+		.z-tip {display: none;}
+		.z-header {margin: 0;}
+		/*   */
+		.m-loginmodal {display: none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6);}
+		.m-loginmodal>table{table-layout:fixed; width:100%; height:100%;}
+		.m-loginmodal>table>tbody>tr>td{vertical-align:middle;}
+		.m-l-wrap {position:relative; width:387px; height: 288px; background-color: #fff; box-sizing: border-box; margin:0 auto; padding: 30px 0 0 40px;}
+		.m-l-wrap h2 {font-size: 18px;}
+		.m-l-error {display: none; position: absolute; top: 35px; left: 180px;}
+		.j-err{display:block; color:#FF0000;}
+		.j-suc{display:block; color:#158226;}
+		.j-error{border-color: #f00; background-color: #FFE7E7;}
+		.j-disabled{cursor: default;background-color: #ddd;}
+		.m-l-wrap form {position: relative; width: 294px;}
+		.m-l-wrap label {display: block; float: left; height: 45px; line-height: 45px; font-size: 16px; color: #ccc;}
+		.m-l-use {position: absolute; left: 12px; top: 20px;}
+		.m-l-pass {position: absolute; left: 12px; top: 80px;}
+		.m-l-wrap input {width: 294px; height: 45px; background-color: #fafafa; font-size: 16px; box-sizing: border-box; border: 1px solid #dfdfdf; box-shadow: 1px 1px 2px #ecebeb;}
+		.m-l-wrap button {display: block; position: absolute; top: 0; right: 1px; width: 23px; height: 23px; border: none; background: url(../images/sprite.png) 0 -32px no-repeat;}
+		#usename {margin: 20px 0 15px; padding: 0 10px 0 54px;}
+		#password {padding: 0 10px 0 54px;}
+		#sub {width: 0; height: 0;  border: none;}
+		.m-l-sub {width: 295px; height: 48px; margin-top: 29px; background: url(../images/sprite.png) 0 -213px no-repeat; cursor: pointer;}
+		/* js控制显示 */
+		.z-loginmodal-show {display: block;}
+		/*   */
